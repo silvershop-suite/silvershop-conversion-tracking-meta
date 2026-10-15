@@ -1,0 +1,16 @@
+---
+Name: silvershop-conversion-tracking-meta
+After:
+  - '#silvershop-conversion-tracking'
+---
+# Register + switch on the Meta connector. It stays inert until SS_META_PIXEL_ID is set (isConfigured gates it),
+# so "installed" safely means "enabled once configured". Set SS_META_CAPI_TOKEN too for the server-side send.
+SilverShop\ConversionTracking\Provider\ConversionProviderRegistry:
+  providers:
+    meta: '%$SilverShop\ConversionTracking\Meta\MetaProvider'
+  active:
+    - meta
+
+SilverShop\ConversionTracking\Meta\MetaProvider:
+  # datalayer_only | built_in_tags | both (default both: Pixel + CAPI + the core's always-on dataLayer).
+  mode: both
