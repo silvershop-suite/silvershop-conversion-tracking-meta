@@ -1,6 +1,6 @@
 {
-    "name": "silvershop/conversion-tracking-meta",
-    "description": "Meta (Facebook / Instagram) connector for silvershop/conversion-tracking: the Meta Pixel (fbq) client events plus the Conversions API (CAPI) server-side send for Purchase, with shared event_id deduplication, SHA-256 Advanced Matching and fbp/fbc forwarding, all consent-gated.",
+    "name": "silvershop-suite/conversion-tracking-meta",
+    "description": "Meta (Facebook / Instagram) connector for silvershop-suite/conversion-tracking: the Meta Pixel (fbq) client events plus the Conversions API (CAPI) server-side send for Purchase, with shared event_id deduplication, SHA-256 Advanced Matching and fbp/fbc forwarding, all consent-gated.",
     "type": "silverstripe-vendormodule",
     "keywords": ["silverstripe", "silvershop", "ecommerce", "conversion-tracking", "meta", "facebook", "pixel", "capi"],
     "license": "BSD-3-Clause",
@@ -18,7 +18,7 @@
         "php": "^8.3",
         "silverstripe/framework": "^6",
         "silverstripe/cms": "^6",
-        "silvershop/conversion-tracking": "dev-main",
+        "silvershop-suite/conversion-tracking": "dev-main",
         "guzzlehttp/guzzle": "^7"
     },
     "require-dev": {

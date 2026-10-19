@@ -1,6 +1,6 @@
 # SilverShop Conversion Tracking — Meta connector
 
-Meta (Facebook / Instagram) connector for [`silvershop/conversion-tracking`](https://github.com/silvershop/silvershop-conversion-tracking).
+Meta (Facebook / Instagram) connector for [`silvershop-suite/conversion-tracking`](https://github.com/silvershop/silvershop-conversion-tracking).
 It implements the core's `ConversionProvider` seam for Meta:
 
 - **Meta Pixel (`fbq`)** — base `PageView` + `ViewContent` / `AddToCart` / `InitiateCheckout` / `Purchase`, each
@@ -14,7 +14,7 @@ It implements the core's `ConversionProvider` seam for Meta:
 ## Install
 
 ```bash
-composer require silvershop/conversion-tracking-meta
+composer require silvershop-suite/conversion-tracking-meta
 ```
 
 The connector registers + switches itself on, but stays **inert until configured** (so installing it is safe).
@@ -59,7 +59,7 @@ composer stan    # PHPStan (silverstan, level 5)
 composer test    # PHPUnit
 ```
 
-`silvershop/conversion-tracking` is an RVXD module resolved from the composer `repositories` VCS entry; a private
+`silvershop-suite/conversion-tracking` is an RVXD module resolved from the composer `repositories` VCS entry; a private
 core repo needs a GitHub token (see the CI workflow).
 
 ## Licence
