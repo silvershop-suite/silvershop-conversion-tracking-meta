@@ -1,6 +1,6 @@
 # SilverShop Conversion Tracking — Meta connector
 
-Meta (Facebook / Instagram) connector for [`silvershop-suite/conversion-tracking`](https://github.com/silvershop/silvershop-conversion-tracking).
+Meta (Facebook / Instagram) connector for [`silvershop-suite/conversion-tracking`](https://github.com/silvershop-suite/silvershop-conversion-tracking).
 It implements the core's `ConversionProvider` seam for Meta:
 
 - **Meta Pixel (`fbq`)** — base `PageView` + `ViewContent` / `AddToCart` / `InitiateCheckout` / `Purchase`, each
